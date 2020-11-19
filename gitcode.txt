@@ -1,0 +1,163 @@
+
+
+Skip to content
+Using Gmail with screen readers
+Meet
+New meeting
+Join a meeting
+Hangouts
+
+Conversations
+2.65 GB (17%) of 15 GB used
+Manage
+Terms · Privacy · Program Policies
+Last account activity: 1 minute ago
+Currently being used in 3 other locations · Details
+
+package com.grip.testing;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Grip {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		ChromeDriver driver=new ChromeDriver();
+		String url="https://www.thesparksfoundationsingapore.org/";
+		driver.manage().window().maximize();
+		driver.get(url);
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Contact Us")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("GRIP (Internship)")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Why Join Us")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.name("Name")).sendKeys("chitrashree");
+		Thread.sleep(3000);
+		driver.findElement(By.name("Email")).sendKeys("chitra@gmail.com");
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Brand Ambassador")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Expert Mentor")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Events Volunteer")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Management Volunteer")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Jobs at Tech in Asia Portal")).click();
+		driver.close();
+
+
+Skip to content
+Using Gmail with screen readers
+Meet
+New meeting
+Join a meeting
+Hangouts
+
+Conversations
+2.65 GB (17%) of 15 GB used
+Manage
+Terms · Privacy · Program Policies
+Last account activity: 1 minute ago
+Currently being used in 3 other locations · Details
+
+package com.grip.testing;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Grip {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		ChromeDriver driver=new ChromeDriver();
+		String url="https://www.thesparksfoundationsingapore.org/";
+		driver.manage().window().maximize();
+		driver.get(url);
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Contact Us")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("GRIP (Internship)")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Why Join Us")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.name("Name")).sendKeys("Rachana");
+		Thread.sleep(3000);
+		driver.findElement(By.name("Email")).sendKeys("rach@gmail.com");
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Brand Ambassador")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Expert Mentor")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Events Volunteer")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Management Volunteer")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Jobs at Tech in Asia Portal")).click();
+		driver.close();
+		driver.quit();
+		
+		
+		
+	}
+
+}
+Code.txt
+Displaying Code.txt.
+
+Skip to content
+Using Gmail with screen readers
+Meet
+New meeting
+Join a meeting
+Hangouts
+
+Conversations
+2.65 GB (17%) of 15 GB used
+Manage
+Terms · Privacy · Program Policies
+Last account activity: 1 minute ago
+Currently being used in 3 other locations · Details
+
+package com.grip.testing;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Grip {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		ChromeDriver driver=new ChromeDriver();
+		String url="https://www.thesparksfoundationsingapore.org/";
+		driver.manage().window().maximize();
+		driver.get(url);
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Contact Us")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("GRIP (Internship)")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Why Join Us")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.name("Name")).sendKeys("chitrashree");
+		Thread.sleep(3000);
+		driver.findElement(By.name("Email")).sendKeys("chitra@gmail.com");
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Brand Ambassador")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Expert Mentor")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Events Volunteer")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Management Volunteer")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Jobs at Tech in Asia Portal")).click();
+		driver.close();
+		driver.quit();
+		
+		
+		
+	}
